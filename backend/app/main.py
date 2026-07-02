@@ -64,7 +64,7 @@ pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 if "financial-10k" not in pc.list_indexes().names():
     pc.create_index(
         name="financial-10k",
-        dimension=1536,
+        dimension=3072,
         metric="cosine",
         spec=ServerlessSpec(cloud="aws", region="us-east-1")
     )
