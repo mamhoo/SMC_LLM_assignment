@@ -15,4 +15,3 @@ pydantic
 httpx
 python-multipart
 requests
-postgresql-client
