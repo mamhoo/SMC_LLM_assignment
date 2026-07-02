@@ -16,7 +16,7 @@
 # 3. Load data (only once on new PC)
 - cd ..
 - psql -h localhost -U postgres -d financial_db -f data/financial_data.sql
-- python scripts/load_sql.py
+- python scripts/load_pinecone.py
 
 # 4. Run backend
 - cd backend
