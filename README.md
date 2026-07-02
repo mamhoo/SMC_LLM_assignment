@@ -8,6 +8,7 @@
 
 # 1. Start databases
 - docker compose up -d
+- sudo apt-get update && sudo apt-get install -y postgresql-client
 
 # 2. Install dependencies
 - cd backend
