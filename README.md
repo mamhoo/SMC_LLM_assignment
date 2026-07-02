@@ -13,10 +13,9 @@
 - cd backend
 - pip install -r app/requirements.txt
 
-# 3. Load data (only once on new PC)
+# 3. Load database to local postgres (only once on new PC)
 - cd ..
 - psql -h localhost -U postgres -d financial_db -f data/financial_data.sql
-- python scripts/load_pinecone.py
 
 # 4. Run backend
 - cd backend
