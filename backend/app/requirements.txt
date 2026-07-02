@@ -5,6 +5,7 @@ psycopg2-binary
 pinecone
 langchain
 langchain-community
+langchain-pinecone
 langchain-google-genai
 langgraph
 python-dotenv
